@@ -5,8 +5,8 @@ GutterPress is a focused stereo effect for corroded digital pressure. It is not 
 ## Product Checklist
 
 - [x] Product version is `0.1.0`.
-- [x] App ID is `audio.2bit.gutterpress`.
-- [x] Plugin ID is `audio.2bit.GutterPress`.
+- [x] App ID is `jp.ehl.gutterpress`.
+- [x] Plugin ID is `jp.ehl.gutterpress`.
 - [x] AU subtype is `GtPr`.
 - [x] State header is product-unique: `GTP1`, version `1`.
 - [x] Public host parameters are exactly `Input`, `Crush`, `Gutter/Gate`, `Tone`, `Mix`, and `Output`.

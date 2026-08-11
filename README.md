@@ -4,8 +4,8 @@ GutterPress is a YUP-based stereo audio effect with deliberately broken digital 
 
 ## Identity
 
-- App ID: `audio.2bit.gutterpress`
-- Plugin ID: `audio.2bit.GutterPress`
+- App ID: `jp.ehl.gutterpress`
+- Plugin ID: `jp.ehl.gutterpress`
 - AU subtype: `GtPr`
 - Vendor: `2bit`
 - Version: `0.1.0`
