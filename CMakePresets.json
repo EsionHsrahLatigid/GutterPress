@@ -45,7 +45,7 @@
       "name": "plugin-release",
       "configurePreset": "plugin-release",
       "targets": [
-        "gutterpress_release_bundles",
+        "ehl_stage_products",
         "gutterpress_engine_tests",
         "gutterpress_plugin_bridge_tests",
         "gutterpress_standalone_bridge_tests"

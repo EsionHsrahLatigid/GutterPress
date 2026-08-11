@@ -159,6 +159,15 @@ if(GUTTERPRESS_BUILD_PLUGIN)
     add_custom_target(gutterpress_release_bundles
         DEPENDS ${gutterpress_release_bundle_targets})
 
+    include(cmake/EhlYupArtifactLayout.cmake)
+    ehl_yup_add_artifact_target(
+        TARGET ehl_stage_products
+        PRODUCT GutterPress
+        SLUG gutterpress
+        STANDALONE_TARGET gutterpress_standalone_plugin
+        VST3_TARGET gutterpress_vst3_plugin
+        AU_TARGET gutterpress_au_plugin)
+
     if(APPLE)
         set_target_properties(gutterpress_standalone_plugin PROPERTIES
             MACOSX_BUNDLE_GUI_IDENTIFIER "jp.ehl.gutterpress"
