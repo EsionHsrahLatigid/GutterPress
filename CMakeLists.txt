@@ -86,7 +86,7 @@ if(GUTTERPRESS_BUILD_PLUGIN)
         PLUGIN_EMAIL ""
         PLUGIN_VERSION "${PROJECT_VERSION}"
         PLUGIN_DESCRIPTION "Broken stereo bit-crush, gate, and tone effect"
-        PLUGIN_URL "https://github.com/2bbb/GutterPress"
+        PLUGIN_URL "https://github.com/EsionHsrahLatigid/GutterPress"
         PLUGIN_IS_SYNTH OFF
         PLUGIN_IS_MONO OFF
         PLUGIN_CREATE_CLAP OFF
