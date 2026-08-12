@@ -7,6 +7,11 @@
 #include <memory>
 #include <vector>
 
+namespace ehl::ui
+{
+class StripMeter;
+}
+
 namespace gutterpress::plugin
 {
 
@@ -39,7 +44,6 @@ private:
 
     yup::String title;
     yup::String warning;
-    std::uint32_t accentColor = 0xffff3300u;
     std::unique_ptr<yup::Label> titleLabel;
     std::unique_ptr<yup::Label> warningLabel;
     std::vector<yup::AudioParameter::Ptr> parameters;
@@ -51,8 +55,8 @@ private:
     std::unique_ptr<yup::TextButton> auditionTypeButton;
     std::unique_ptr<yup::Label> inputMeterLabel;
     std::unique_ptr<yup::Label> outputMeterLabel;
-    std::unique_ptr<yup::Component> inputMeter;
-    std::unique_ptr<yup::Component> outputMeter;
+    std::unique_ptr<ehl::ui::StripMeter> inputMeter;
+    std::unique_ptr<ehl::ui::StripMeter> outputMeter;
 #endif
     GutterPressPlugin* gutterpressProcessor = nullptr;
     float displayedInputPeak = 0.0f;

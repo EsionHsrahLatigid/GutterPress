@@ -236,7 +236,7 @@ yup::AudioProcessorEditor* GutterPressPlugin::createEditor()
     return new ParameterGridEditor (*this,
                                     "GutterPress",
                                     "Corroded stereo effect with standalone-only audition.",
-                                    0xffd9ff42u);
+                                    0xfff2f2f0u);
 #endif
 }
 

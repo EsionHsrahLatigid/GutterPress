@@ -7,7 +7,8 @@ GutterPress is a YUP-based stereo audio effect with deliberately broken digital 
 - App ID: `jp.ehl.gutterpress`
 - Plugin ID: `jp.ehl.gutterpress`
 - AU subtype: `GtPr`
-- Vendor: `2bit`
+- Plugin vendor: `ehl_`
+- AU manufacturer: `EHL1`
 - Version: `0.1.0`
 - Type: stereo input/output effect, no MIDI
 - macOS formats: Standalone, VST3, AUv2
@@ -29,6 +30,12 @@ Standalone builds compile a small audition source behind `YUP_AUDIO_PLUGIN_ENABL
 The standalone editor shows input/output meters and audition controls. If the YUP standalone macro is unavailable, the editor fails closed as a plain parameter grid with no audition path.
 
 ## Build
+
+Clone with `--recurse-submodules`, or initialize the shared [yup-ehl-design-module](https://github.com/EsionHsrahLatigid/yup-ehl-design-module) before configuring:
+
+```sh
+git submodule update --init
+```
 
 ```sh
 cmake --preset engine-debug
